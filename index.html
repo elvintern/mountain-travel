@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mountain Travel</title>
+
+    <!-- Google Font CDN -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/49e34b33ee.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./resources/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./resources/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./resources/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./resources/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./resources/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="./resources/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="./resources/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="./resources/css/media.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FE7F5PHHT4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FE7F5PHHT4");
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="animated">Mountain Travel</a>
+        <ul class="nav__list">
+          <li><a href="#" class="animated">Tours</a></li>
+          <li><a href="#" class="animated">About</a></li>
+          <li><a href="#" class="animated">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="landing-container">
+        <!-- <h1 class="heading-primary">
+          <span class="heading-primary__sub"></span>
+        </h1> -->
+        <h1>Mountain Travel</h1>
+        <h2>Unmissable Adventure Tours Around The World</h2>
+        <a href="#" class="btn">contact us now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-destination">
+        <h3 class="title">some of our destination</h3>
+        <p class="paragraph">
+          Tired of the ocean? Are the plains too plain? Come along with us on
+          one of our mountain adventures. Here are some pictures from people who
+          have had elevated experiences with us.
+        </p>
+        <hr />
+        <div class="grid">
+          <div
+            class="image-small"
+            style="
+              background-image: url(./resources/img/mountain1-resized-min.jpg);
+            "
+          ></div>
+          <div
+            class="image-large"
+            style="background-image: url(./resources/img/mountain2-min.jpg)"
+          ></div>
+          <div
+            class="image-large"
+            style="background-image: url(./resources/img/mountain3-min.jpg)"
+          ></div>
+          <div
+            class="image-small"
+            style="
+              background-image: url(./resources/img/mountain4-resize-min.jpg);
+            "
+          ></div>
+        </div>
+      </section>
+
+      <section class="section-packages">
+        <h3 class="title">tour packages</h3>
+        <p class="paragraph">
+          We offer a variety of mountaineering packages. Whether you've claimed
+          Everest or don't even know what a mountain is, we've got the perfect
+          vacation for you.
+        </p>
+        <hr />
+        <div class="grid">
+          <div>
+            <i class="fas fa-compass"></i>
+            <h4 class="title">Guided Trips</h4>
+            <p class="paragraph">
+              Looking for the complete experience? Take a tour with one of our
+              experts. They'll show you secrets that you're likely to miss
+              otherwise.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-camera-retro"></i>
+            <h4 class="title">Photo Trips</h4>
+            <p class="paragraph">
+              Want to experience nature's beauty without all of that annoying
+              exercise? Take a photo tour on one of our mountain buses.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-bicycle"></i>
+            <h4 class="title">Biking Trips</h4>
+            <p class="paragraph">
+              If bicycles are more your speed, consider takinga a tour through
+              one of our mountain bike paths. We'll provide the bikes, and lunch
+              too!
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-flag"></i>
+            <h4 class="title">Racing Trips</h4>
+            <p class="paragraph">
+              Got a competitive spirit? Sign up for one of our mountain
+              marathons! Try to reach the summit before anyone else.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-adventures">
+        <h3 class="title">Testimonials From Our Adventurers</h3>
+        <hr />
+        <div class="quote-container">
+          <p class="quote">
+            Wow! This tour made me realize how much I love mountains. After
+            going on one of these tours, I can safely say that they are my
+            favorite geographic feature, and my favorite word that starts with
+            M.
+          </p>
+          <p class="author">- Murray Cooper</p>
+        </div>
+
+        <div class="quote-container">
+          <p class="quote">
+            I never understood why people cared so much about mountains. But
+            then I went on one of these tours. Now I can't understand people who
+            don't care about mountains!
+          </p>
+          <p class="author">- Joana Silva</p>
+        </div>
+
+        <div class="quote-container">
+          <p class="quote">
+            If you want to understand the universe, head to the mountains. I
+            mean, seriously. It's like, woah. You know? It's like that.
+          </p>
+          <p class="author">- Michael Liu</p>
+        </div>
+      </section>
+
+      <section class="section-subscribe">
+        <h3 class="title">Learn More</h3>
+        <p class="paragraph">
+          Want to know about our upcoming mountain-related events, or come to
+          one of our mixers? Just sign up for our mailing list. No sapn from us,
+          we promise! Except for the spam we give you to keep up your energy
+          while you're hiking through the mountains. We have tons of that.
+        </p>
+        <hr />
+        <form action="#" method="POST">
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <button class="btn">subscribe now</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        IMAGES COURTESY OF <a href="#" class="unsplash animated">UNSPLASH</a>
+      </p>
+      <p>
+        WHT ARE YOU EVEN READING THIS?! THERE'S NEVER ANYTHING INTERESTING IN
+        THE FOOTER!
+      </p>
+      <ul>
+        <li>
+          <a href="#" class="animated"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li>
+          <a href="#" class="animated"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="animated"
+            ><i class="fab fa-snapchat-square"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
